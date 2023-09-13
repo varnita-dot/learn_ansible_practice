@@ -3,12 +3,12 @@
   tasks:
     - name: apple price
       ansible.builtin.debug:
-        msg: Price of apple is - 100
+        msg: Price of fruit apple is - 100
       when: fruit == "Apple"
 
     - name: Orange price
       ansible.builtin.debug:
-        msg: Price of orange is - 100
+        msg: Price of fruit orange is - 100
       when: fruit == "Orange"
 
 - name: Demo on conditions
