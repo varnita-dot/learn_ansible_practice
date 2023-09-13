@@ -8,13 +8,13 @@
 - name: Practice task level variable
   hosts: localhost
   vars:
-    NAME: VARNITA rAJEH FEGADE
+    NAME: VARNITARAJEHFEGADE
   tasks:
     - name: task level
       ansible.builtin.debug:
         msg: "{{ NAME }}"
-        vars:
-          NAME: Mrunmayi Fegade
+      vars:
+          NAME: MrunmayiFegade
 
     - name: Practice play level variable
       ansible.builtin.debug:
