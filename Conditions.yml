@@ -1,12 +1,25 @@
-- name: working on conditions part
+#- name: working on conditions part
+#  hosts: localhost
+#  tasks:
+#    - name: apple price
+#      ansible.builtin.debug:
+#        msg: Price of apple is - 100
+#      when: fruit == "Apple"
+#
+#    - name: Orange price
+#      ansible.builtin.debug:
+#        msg: Price of orange is - 100
+#      when: fruit == "Orange"
+
+- name: Demo on conditions
   hosts: localhost
   tasks:
-    - name: apple price
+    - name: Print Apple Price
       ansible.builtin.debug:
-        msg: Price of apple is - 100 rs
-      when: fruit == "Apple"
+        msg: Apple Price is - 1$
+      when: fruit == "apple"
 
-    - name: Orange price
+    - name: Print Orange Price
       ansible.builtin.debug:
-        msg: Price of orange is - 100 rs
-      when: fruit == "Orange"
+        msg: Orange Price is - 2$
+      when: fruit == "orange"
