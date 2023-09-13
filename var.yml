@@ -1,0 +1,19 @@
+- name: Practice Print statement
+  hosts: localhost
+  tasks:
+  vars:
+   NAME=Varnita
+     - name: print my name
+       ansible.builtin.debug:
+         msg= "{{My name is Varnita Rajesh Fagade}}"
+
+    - name: Practice task level variable
+      ansible.builtin.debug:
+        msg: "{{NAME}}"
+        vars:
+          NAME: Mrunmayi Fegade
+    - name: Practice play level variable
+      ansible.builtin.debug:
+        msg: "{{NAME}}"
+
+
