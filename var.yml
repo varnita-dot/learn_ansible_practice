@@ -8,7 +8,7 @@
 - name: Practice task level variable
   hosts: localhost
   vars:
-  NAME: VARNITA rAJEH FEGADE
+    NAME: VARNITA rAJEH FEGADE
   tasks:
     - name: task level
       ansible.builtin.debug:
