@@ -1,7 +1,7 @@
 - name: working on conditions part
   hosts: localhost
   tasks:
-    - name: introducting condtion
+    - name: apple price
       ansible.builtin.debug:
         msg: Price of apple is 100 rs
         when: fruit== "Apple"
