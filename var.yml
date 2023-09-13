@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   vars:
-   NAME=Varnita
+   NAME: Varnita
      - name: print my name
        ansible.builtin.debug:
          msg= "{{My name is Varnita Rajesh Fagade}}"
