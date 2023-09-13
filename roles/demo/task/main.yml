@@ -1,0 +1,5 @@
+- name: task level
+  ansible.builtin.debug:
+    msg: "{{ NAME }}"
+  vars:
+    NAME: Mrunmayi Fegade

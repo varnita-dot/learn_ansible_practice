@@ -20,4 +20,9 @@
       ansible.builtin.debug:
         msg: "{{ NAME }}"
 
+- name: Practice task level variable
+  hosts: localhost
+  roles:
+    - demo
+
 
