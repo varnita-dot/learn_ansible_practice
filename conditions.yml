@@ -16,10 +16,10 @@
   tasks:
     - name: Print Apple Price
       ansible.builtin.debug:
-        msg: Apple Price is - 1$
+        msg: Apple fruit Price is - 1$
       when: fruit == "apple"
 
     - name: Print Orange Price
       ansible.builtin.debug:
-        msg: Orange Price is - 2$
+        msg: Orange fruit Price is - 2$
       when: fruit == "orange"
