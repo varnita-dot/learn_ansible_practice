@@ -3,7 +3,7 @@
   tasks:
     - name: print my name
       ansible.builtin.debug:
-        msg: "{{My name is Varnita Rajesh Fagade}}"
+        msg: My name is Varnita Rajesh Fagade
 
 - name: Practice task level variable
   hosts: localhost
@@ -12,12 +12,12 @@
   tasks:
     - name: task level
       ansible.builtin.debug:
-        msg: "{{NAME}}"
+        msg: "{{ NAME }}"
         vars:
           NAME: Mrunmayi Fegade
 
     - name: Practice play level variable
       ansible.builtin.debug:
-        msg: "{{NAME}}"
+        msg: "{{ NAME }}"
 
 
