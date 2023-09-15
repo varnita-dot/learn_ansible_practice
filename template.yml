@@ -1,6 +1,4 @@
-- name: Test on templates
-  hosts: all
+- name: template
+  hosts: localhost
   roles:
     - demo
-
-
