@@ -1,4 +1,8 @@
--name: Test on templates
-hosts: all
-roles:
+- name: Test on templates
+  hosts: all
+  roles:
     -demo
+
+- name: Test on templates
+  ansible.builtin.debug:
+    msg: This is my second play
