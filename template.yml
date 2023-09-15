@@ -1,4 +1,4 @@
-- name: template
-  hosts: localhost
+- name: Test on templates
+  hosts: all
   roles:
     - demo
