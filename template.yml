@@ -1,4 +1,4 @@
-- name: Test on templates
-  hosts: all
-  roles:
+-name: Test on templates
+hosts: all
+roles:
     -demo
