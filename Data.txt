@@ -1,1 +1,1 @@
-My name is {{Varnita}}
+My name is {{ MY_NAME }}

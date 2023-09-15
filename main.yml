@@ -1,4 +1,0 @@
-- name: copy files
-  ansible.builtin.copy:
-  src: Data.txt
-  dest: /tmp/Data.txt
