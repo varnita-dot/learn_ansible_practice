@@ -1,7 +1,4 @@
 - name: Check templates
   hosts: localhost
-  tasks:
-    - name: Demo template
-      ansible.builtin.template:
-        role:
-          -demo
+  roles:
+    -demo
