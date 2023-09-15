@@ -1,8 +1,6 @@
 - name: Test on templates
   hosts: all
   roles:
-    -demo
+    - demo
 
-- name: Test on templates
-  ansible.builtin.debug:
-    msg: This is my second play
+
