@@ -1,9 +1,9 @@
-#- name: Test on templates
-#  hosts: all
-#  roles:
-#    - demo
-
-- name: Practice task level variable
+- name: Test on templates
   hosts: localhost
   roles:
     - demo
+
+#- name: Practice task level variable
+#  hosts: localhost
+#  roles:
+#    - demo
