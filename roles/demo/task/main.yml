@@ -5,6 +5,6 @@
     NAME: Mrunmayi Fegade
       -
 - name: copy files
-  ansible.builtin.copy:
+  ansible.builtin.template:
   src: input.txt
   dest: /tmp/input.txt
