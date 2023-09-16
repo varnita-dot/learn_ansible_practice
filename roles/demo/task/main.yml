@@ -1,9 +1,9 @@
-#- name: task level
-#  ansible.builtin.debug:
-#    msg: "{{ NAME }}"
-#  vars:
-#    NAME: Mrunmayi Fegade
-      -
+- name: task level
+  ansible.builtin.debug:
+    msg: "{{ NAME }}"
+  vars:
+    NAME: Mrunmayi Fegade
+
 - name: copy files
   ansible.builtin.template:
     src: input.txt
