@@ -1,5 +1,5 @@
 - name: Example of parameter
-  hosts: all
+  hosts: localhost
   tasks:
     - name: to get parameter store
       ansible.builtin.debug:
