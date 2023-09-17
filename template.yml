@@ -1,5 +1,5 @@
 - name: Test on templates
-  hosts: all
+  hosts: localhost
   roles:
     - demo
 
